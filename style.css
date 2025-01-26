@@ -2,6 +2,7 @@
  margin: 24px;
   font-family: Monospace;
   width: 500px;
+  color: #076585;
   
   
 }
@@ -11,7 +12,16 @@
   margin-top: 10px;
   font-family: Monospace;
   width: 500px;
+  color: #076585;
 }
 #tag{
   width: 500px;
+  color: #076585;
+  font-family: Monospace;
 }
+#aboutus{
+  font-family: Serif;
+  color: #1488cc;
+}
+
+
