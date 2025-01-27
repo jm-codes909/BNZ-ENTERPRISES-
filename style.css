@@ -160,7 +160,7 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    max-width: 900px;
+    max-width: 400px;
     margin: auto;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     cursor: pointer;
@@ -199,7 +199,7 @@ p {
 }
 
 .product-item {
-    width: 30%;
+    width: 10%;
     background: #f9f9f9;
     border-radius: 15px;
     padding: 15px;
