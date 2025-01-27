@@ -152,3 +152,96 @@ p {
     font-size: 1em;
     color: #555;
 }
+
+/* Products Section Styling */
+.products-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.products-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.products-image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Product List Styling */
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 30%;
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.view-all {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #007BFF;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.view-all:hover {
+    background: #0056b3;
+}
