@@ -101,3 +101,54 @@ p {
   color: #555;
   line-height: 1.5;
 }
+
+
+
+#our-team {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+#our-team h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin: 15px 0 5px;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #555;
+}
