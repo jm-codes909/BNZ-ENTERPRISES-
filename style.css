@@ -247,3 +247,13 @@ p {
 .view-all:hover {
     background: #0056b3;
 }
+#navbar{
+  height: 60px;
+  font-family: Serif;
+  background-color:#3674B5 ;
+}
+.nav{
+  text-decoration: none;
+  margin-right: 150px;
+  color:#D1F8EF;
+}
