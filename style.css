@@ -251,6 +251,7 @@ p {
   height: 60px;
   font-family: Serif;
   background-color:#042A2B ;
+  border-radius:20%;
 }
 .nav{
   text-decoration: none;
