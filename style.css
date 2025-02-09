@@ -14,9 +14,9 @@
   font-size: 50px;
 }
 #tag{
-  width: 500px;
   color: #076585;
   font-family: Monospace;
+  text-align: center;
 }
 #aboutus{
   font-family: Serif;
