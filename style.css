@@ -267,3 +267,5 @@ p {
 #RS{
  color: #0D92F4;
  }
+@media(max-width: 480px) {
+}
