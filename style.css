@@ -250,7 +250,7 @@ p {
 }
 #navbar {
  height: 60px;
-fon-family: Serif;
+font-family: Serif;
 background-color:#042A2B;
 
 display: flex;
@@ -261,7 +261,7 @@ justify-content: space-around;
 .nav {
 text-decoration:none;
 color:#D1F8EF;
-font-size: 6px;
+font-size: 10px;
 }
   
 
