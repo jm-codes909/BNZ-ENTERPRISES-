@@ -248,16 +248,22 @@ p {
 .view-all:hover {
     background: #0056b3;
 }
-#navbar{
-  height: 60px;
-  font-family: Serif;
-  background-color:#042A2B ;
+#navbar {
+ height: 60px;
+fon-family: Serif;
+background-color:#042A2B;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
-.nav{
-  text-decoration: none;
-  margin-right: 150px;
-  color:#D1F8EF;
+.nav {
+text-decoration:none;
+color:#D1F8EF;
+font-size: 6px;
 }
+  
+
 #ch{
  text-decoration: none;
  }
